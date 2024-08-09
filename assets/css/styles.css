@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --secondary-font: "open sans";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* ============================Common=============================== */
+a {
+    text-decoration: none;
+}
+.line-clamp {
+    display: -webkit-box;
+    --webkit-line-clamp: var(--line-clamp, 1);
+    --webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+}
