@@ -356,3 +356,62 @@ h1 {
 .service__btn {
     margin-top: 55px;
 }
+/* ============================Service-End=============================== */
+
+/* ============================Working-Start=============================== */
+.working {
+    padding: 100px 0;
+    background: #f6fbff;
+}
+
+.working__desc {
+    width: 468px;
+}
+
+.working__row {
+    margin-top: 86px;
+    display: flex;
+    gap: 30px;
+}
+
+.working-item {
+    width: calc(100% / 3) - 30px;
+    padding: 43px 42px;
+    border-radius: 4px;
+    border: 16px solid #eaf6ff;
+}
+
+.working-item:hover {
+    border: 16px solid #2e80ce;
+    cursor: pointer;
+    transform: translateY(-16px);
+}
+
+.working-item:hover .working-item__link {
+    color: #2e80ce;
+}
+
+.working-item__heading {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.38; /* 138.462% */
+}
+
+.working-item__desc {
+    margin-top: 28px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.working-item__link {
+    display: inline-block;
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
