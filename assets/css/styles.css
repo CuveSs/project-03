@@ -855,6 +855,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 10px;
 }
 
 .footer-form__input {
