@@ -471,7 +471,9 @@ h1 {
 }
 
 .staff-heading {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .staff__btn {
